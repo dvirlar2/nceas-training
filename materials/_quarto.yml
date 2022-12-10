@@ -1,0 +1,49 @@
+# book_filename: "reproducible-research-short-course"
+# delete_merged_file: true
+# output_dir: "_book"
+# language:
+#   ui:
+#     chapter_name: ""
+    
+    
+# book_filename: "reproducible-research-short-course"
+# delete_merged_file: true
+# output_dir: "_book"
+# language:
+#   ui:
+#     chapter_name: ""
+    
+    
+project:
+    type: website
+    output-dir: _book
+    # render: "materials/"
+    
+website:
+  title: "Fundamentals in Data Management for Qualitative and Quantitative Arctic Research"
+  author: "Amber E. Budden, S. Jeanette Clark, Natasha Haycock-Chavez, Noor Johnson, Matthew B. Jones"
+  date: last-modified
+  date-format: MMMM D, YYYY
+  
+  sidebar:
+    title: "Fundamentals Training Course"
+    style: "docked"
+    search: true
+    align: center
+    tools: 
+      - icon: house-door-fill
+        href: https://arcticdata.io
+        text: "Arctic Data Center"
+    collapse-level: 1
+    
+    contents:
+      - materials/*.qmd
+
+format:
+  html:
+    theme: 
+      light: 
+        - cosmo
+    code-copy: true
+    code-overflow: wrap
+    toc: true        
