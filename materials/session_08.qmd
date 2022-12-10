@@ -1,4 +1,4 @@
 # Data Ethics
 
-```{r, child = 'sections/data-ethics-socialsci.Rmd'}
+```{r, child = 'sections/data-ethics-socialsci.qmd'}
 ```

@@ -10,5 +10,5 @@ knitr::include_graphics("images/adc-courses-repro-rsrch.png")
 knitr::include_graphics("images/adc-courses-scalable-comp.png")
 ```
 
-```{r, child = 'sections/adc-intro-to-policies.Rmd'}
+```{r, child = 'sections/adc-intro-to-policies.qmd'}
 ```

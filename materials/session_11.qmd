@@ -1,4 +1,4 @@
 # Human Subjects Research Considerations
 
-```{r, child = 'sections/human-subjects-considerations.Rmd'}
+```{r, child = 'sections/human-subjects-considerations.qmd'}
 ```
