@@ -106,5 +106,5 @@ This research continued to receive community approval throughout the years.
 
 
 
-```{r, child = 'data-ethics-resources.Rmd'}
+```{r, child = 'data-ethics-resources.qmd'}
 ```
