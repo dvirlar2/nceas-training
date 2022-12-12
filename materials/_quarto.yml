@@ -4,29 +4,26 @@
 # language:
 #   ui:
 #     chapter_name: ""
-    
-    
-# book_filename: "reproducible-research-short-course"
-# delete_merged_file: true
-# output_dir: "_book"
-# language:
-#   ui:
-#     chapter_name: ""
-    
+
     
 project:
     type: website
-    output-dir: _book
-    # render: "materials/"
+    output-dir: _site    # render: "materials/"
+    render: 
+        - "*.qmd" # render only .qmd files
+        - "!sections/bayesian-implementation.qmd"
+        - "!sections/bayesian-intro.qmd"
+        - "!model-analysis.qmd"
+        - "!time-series-forecasting.qmd"
     
 website:
   title: "Fundamentals in Data Management for Qualitative and Quantitative Arctic Research"
-  author: "Amber E. Budden, S. Jeanette Clark, Natasha Haycock-Chavez, Noor Johnson, Matthew B. Jones"
-  date: last-modified
-  date-format: MMMM D, YYYY
+  # author: "Amber E. Budden, S. Jeanette Clark, Natasha Haycock-Chavez, Noor Johnson, Matthew B. Jones"
+  # date: last-modified
+  # date-format: MMMM D, YYYY
   
   sidebar:
-    title: "Fundamentals Training Course"
+    title: "Fundamentals Training Course <br>"
     style: "docked"
     search: true
     align: center
@@ -37,7 +34,45 @@ website:
     collapse-level: 1
     
     contents:
-      - materials/*.qmd
+      - index.qmd
+      - href: session_01.qmd
+        text: "1. Welcome and Introductions"
+      - href: session_02.qmd
+        text: "2. Open Data and Reproducibility"
+      - href: session_03.qmd
+        text: "3. Thinking Preferences"
+      - href: session_04.qmd
+        text: "4. Writing Data Management Plans"
+      - href: session_05.qmd
+        text: "5. Introduction to R"
+      - href: session_06.qmd
+        text: "6. Introduction to RMarkdown"
+      - href: session_07.qmd
+        text: "7. Collaborations, Authorship, and Data Policies"
+      - href: session_08.qmd
+        text: "8. Data Ethics"
+      - href: session_09.qmd
+        text: "9. Data Modeling Essentials"
+      - href: session_10.qmd
+        text: "10. Cleaning and Manipulating Data"
+      - href: session_11.qmd
+        text: "11. Human Subjects Research Considerations"
+      - href: session_12.qmd
+        text: "12. Data Publishing"
+      - href: session_13.qmd
+        text: "13. Reproducible Survey Workflows"
+      - href: session_14.qmd
+        text: "14. Text Analysis"
+      - href: session_15.qmd
+        text: "15. Data Visualization"
+      - href: session_16.qmd
+        text: "16. Data Portals"
+      - href: session_17.qmd
+        text: "17. Geospatial Analysis"
+      - href: session_18.qmd
+        text: "18. Open Data and Ethics Summary"
+      - href: session_19.qmd
+        text: "19. Provenance and Reproducibility"
 
 format:
   html:
