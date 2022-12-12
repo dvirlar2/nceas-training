@@ -2,7 +2,7 @@
 author: "Noor Johnson"
 date: "3/4/2022"
 
-bibliography: 202203_ASSW_Training.bib
+# bibliography: 202203_ASSW_Training.bib
 ---
 
 ## Data Ethics Resources
