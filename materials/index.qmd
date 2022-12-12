@@ -1,5 +1,9 @@
 --- 
 title: "Fundamentals in Data Management for Qualitative and Quantitative Arctic Research"
+author: "Amber E. Budden, S. Jeanette Clark, Natasha Haycock-Chavez, Noor Johnson, Matthew B. Jones"
+date: last-modified
+date-format: MMMM D, YYYY
+
 # date: "April 18 - 22, 2022"
 # site: bookdown::bookdown_site
 # output: bookdown::gitbook
@@ -11,7 +15,7 @@ title: "Fundamentals in Data Management for Qualitative and Quantitative Arctic 
 # always_allow_html: yes
 ---
 
-# Fundamentals in Data Management for Qualitative and Quantitative Arctic Research {-#open-science}
+<!--- # Fundamentals in Data Management for Qualitative and Quantitative Arctic Research {-#open-science} --->
 
 ## About {-}
 
